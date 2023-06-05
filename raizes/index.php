@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raízes</title>
+    <title>Medias</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,7 +15,7 @@
     <main>
         <h1>Raízes</h1>
         <form action="<?=$_SERVER['PHP_SELF']?>" method="get">
-        <label for="v1">Número</label>
+            <label for="v1">1ºValor</label>
             <input type="number" name="v1" id="v1" step="0.00001" <?=$numero?>">
             <input type="submit" value="Calcular Raízes">
         </form>
